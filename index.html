@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Exchange Blocked Currency</title>
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: column; width: 15rem">
+      <div style="margin-bottom: 10px">
+        <label for="number">Amount</label>
+        <input
+          type="number"
+          id="number"
+          placeholder="Enter in amount"
+          style="width: 13.5rem; padding: 10px; margin-bottom: 5px"
+        />
+      </div>
+
+      <div style="margin-bottom: 10px">
+        <label for="fromSelect" style="">From</label>
+        <select id="fromSelect" style="width: 100%; padding: 10px"></select>
+      </div>
+
+      <div style="margin-bottom: 10px">
+        <label for="toSelect" style="">To</label>
+        <select id="toSelect" style="width: 100%; padding: 10px"></select>
+      </div>
+    </div>
+
+    <button id="convertBtn" style="width: 15rem; padding: 8px; height: 100%">
+      Convert!
+    </button>
+
+    <h3 id="result" style="width: 15rem; margin-top: 10px"></h3>
+  </body>
+</html>
